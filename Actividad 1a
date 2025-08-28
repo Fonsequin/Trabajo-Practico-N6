@@ -1,0 +1,16 @@
+#include <iostream> // Solicitar biblioteca
+#include <string> // Solicitar biblioteca
+using namespace std;
+
+int main() // Funcion principal
+{
+	string palabra; // Variable para guardar la palabra ingresada
+	int cantidad; // Variable para guardar la cantidad de caracteres
+	cout << "Este programa dice la longitud de una palabra" << endl; // Presentacion
+	cout << "Ingrese la palabra: "; // Pedirle al usuario que ingrese la palabra
+	cin >> palabra; // Datos guardado de la palabra en variable
+	cantidad = palabra.length(); // Datos guardado de la cantidad de caracteres en variable
+	cout << endl; // Separacion
+	cout << "La palabra tiene un total de " << cantidad << " caracteres"; // Cantidad de caracteres expresada en pantalla
+}
+
