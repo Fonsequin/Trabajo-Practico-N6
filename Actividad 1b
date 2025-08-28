@@ -1,0 +1,21 @@
+#include <iostream> // Solicitar biblioteca
+#include <string> // Solicitar biblioteca
+
+using namespace std;
+
+int main() // Funcion principal
+{
+	string nombre; // Variable para guardar el nombre
+	string apellido; // Variable para guardar el apellido
+	string nombre_entero; // Variable para guardar el nombre entero
+	cout << "Este programa dice cual es tu nombre entero" << endl; // Presentacion
+	cout << "Ingrese su nombre: "; // Pedirle al usuario que ingrese su nombre
+	cin >> nombre; // Datos guardado del nombre en variable
+	cout << "Ingrese su apellido: "; // Pedirle al usuario que ingrese su apellido
+	cin >> apellido; // Datos guardado de su apellido en variable
+	cout << endl; // Separacion
+	nombre_entero = nombre + " " + apellido; // Datos guardado de su nombre entero en variable
+	cout << "Su nombre entero es: " << nombre_entero; // Su nombre entero expresado en pantalla
+	return 0; // Devolver 0
+}
+
