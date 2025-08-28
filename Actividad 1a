@@ -12,5 +12,7 @@ int main() // Funcion principal
 	cantidad = palabra.length(); // Datos guardado de la cantidad de caracteres en variable
 	cout << endl; // Separacion
 	cout << "La palabra tiene un total de " << cantidad << " caracteres"; // Cantidad de caracteres expresada en pantalla
+	return 0; // Devolver 0
 }
+
 
