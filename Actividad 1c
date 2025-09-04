@@ -10,5 +10,7 @@ int main()
 	{
 		cout << nombre.at(i); // Mostrar en pantalla la palabra dada vuelta
 	}
+	return 0;
 }
+
 
