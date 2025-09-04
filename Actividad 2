@@ -1,24 +1,24 @@
-#include <iostream>
-#include <string>
+#include <iostream> // Solicitar biblioteca
+#include <string> // Solicitar biblioteca
 
 using namespace std;
 
 int main()
 {
-	int operacion;
-	cout << "Este programa permite realizar los ejercicios pasados." << endl;
-	cout << "1. Tomar una Tomar una cadena y devolver su longitud." << endl;
-	cout << "2. Tomar dos cadenas y devolver la concatenación de ambas." << endl;
-	cout << "3. Tomar una cadena y devolver su reverso." << endl;
-	cout << "4. Tomar una cadena y devolver la cantidad de veces que aparece un carácter específico en ella." << endl;
-	cout << "5. Tomar una cadena, devolver la cantidad de letras que contiene."	<< endl;
-	cout << "Ahora ingrese el ejercicio que quiera realizar: ";
-	cin >> operacion;
-	cout << endl;
-	if(operacion < 1 or operacion > 5)
+	int operacion; // Variable para guardar la operacion
+	cout << "Este programa permite realizar los ejercicios pasados." << endl; // Presentacion
+	cout << "1. Tomar una Tomar una cadena y devolver su longitud." << endl; // Operacion 1
+	cout << "2. Tomar dos cadenas y devolver la concatenaciÃ³n de ambas." << endl; // Operacion 1
+	cout << "3. Tomar una cadena y devolver su reverso." << endl; // Operacion 1
+	cout << "4. Tomar una cadena y devolver la cantidad de veces que aparece un carÃ¡cter especÃ­fico en ella." << endl; // Operacion 1
+	cout << "5. Tomar una cadena, devolver la cantidad de letras que contiene."	<< endl; // Operacion 1
+	cout << "Ahora ingrese el ejercicio que quiera realizar: "; // Pedirle al usuario que ingrese la operacion querida
+	cin >> operacion;  // Dato guardado de la operacion
+	cout << endl; // Separacion
+	if(operacion < 1 or operacion > 5) // Si el dato ingresado no es ninguna de las opciones disponibles
 	{
-		cout << "Porfavor ingrese una de las opciones disponibles, el programa se volvera a iniciar..." << endl;
-		return main();
+		cout << "Porfavor ingrese una de las opciones disponibles, el programa se volvera a iniciar..." << endl; // Avisandole al usuario
+		return main(); // El programa se reiniciara
 	}
 	if(operacion == 1)
 	{
@@ -98,3 +98,4 @@ int main()
 		return 0;
 	}
 }
+
