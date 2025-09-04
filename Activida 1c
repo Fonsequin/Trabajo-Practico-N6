@@ -1,0 +1,14 @@
+#include <iostream> // Solicitar biblioteca
+#include <string> // Solicitar biblioteca
+
+using namespace std;
+
+int main()
+{
+	string nombre = "hola"; // Variable de la palabra
+	for(int i = 3; i > -1; i--) // Sentencia de ciclo
+	{
+		cout << nombre.at(i); // Mostrar en pantalla la palabra dada vuelta
+	}
+}
+
