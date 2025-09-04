@@ -1,0 +1,27 @@
+#include <iostream> // Solicitar biblioteca
+#include <string> // Solicitar biblioteca
+
+using namespace std;
+
+int main()
+{
+	int cantidad = 0; // Variable de la cantidad de veces que la "a" se repite
+	int cantidad2; // Variable de la cantidad de caracteres
+	string nombre2; // Variable para ver si la letra es la "a"
+	string nombre; // Variable para guardar el nombre
+	cout << "Este programa cuenta cuantas a contiene la palabra" << endl; // Presentacion
+	cout << "Ingrese la palabra: "; // Pedirle al usuario que ingrese la palabra
+	cin >> nombre; // Dato de la palabra guardada en variable
+	cantidad2 = nombre.length() - 1; // Medir la cantidad de caracteres
+	for(int i = cantidad2; i > -1; i--)
+	{
+		nombre2 = nombre.at(i); // Dar vuelta la palabra para ver si contiene a
+		if(nombre2 == "a") // Si detecta alguna a
+		{
+			cantidad = cantidad + 1; // Sumarle 1 a la variable de cantidad2
+		}
+	}
+	cout << "La palabra tiene: " << cantidad << " caracteres de a"; // Cantidad expresada en pantalla
+	return 0; 
+}
+
